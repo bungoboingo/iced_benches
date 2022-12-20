@@ -1,0 +1,16 @@
+[package]
+name = "iced_benches"
+authors = ["Bingus <shankern@protonmail.com>"]
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = [
+    "gradients_bench_quad",
+    "gradients_bench_triangle",
+    "solids_bench_quad",
+    "solids_bench_triangle",
+]
+
+[dependencies]
+iced = { git = "https://github.com/iced-rs/iced.git", branch = "master" }
