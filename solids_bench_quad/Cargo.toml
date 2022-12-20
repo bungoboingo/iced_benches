@@ -1,8 +1,11 @@
 [package]
 name = "solids_bench_quad"
-version = "0.1.0"
-edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = "static quad pipeline benchmarks for solids"
+version.workspace = true
+edition.workspace = true
+repository.workspace = true
+licence.workspace = true
 
 [dependencies]
+iced.workspace = true
+env_logger.workspace = true
